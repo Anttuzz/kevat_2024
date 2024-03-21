@@ -1,0 +1,47 @@
+header, footer {
+    background-color: blue;
+    color: white;
+    padding: 1cm;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    clear: left;
+}
+
+nav {
+    background-color: bisque;
+    padding: 1cm;
+}
+
+
+.wrapper{
+    display: flex;
+}
+
+.wrapper >div{
+    flex: 1;
+    text-align: center;
+}
+
+section {
+    float: left;
+    width: 65%;
+    color: blue;
+    height: 230px;
+    padding: 1cm;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    color: blue;
+    height: 430px;
+    padding: 1cm;
+}
+article {
+    float: left;
+    width: 65%;
+    color: blue;
+    height: 230px;
+    padding: 1cm;
+}
